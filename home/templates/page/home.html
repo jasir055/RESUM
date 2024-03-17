@@ -1,0 +1,87 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mohammed Jasir</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/jasir.jpeg' %}" >
+					<hr>
+					<h4>Hi I'm Jasir!</h4>
+					<p>I love coding, doing research and collaborating</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>What I do ?</h4>
+					<hr>
+					<p>I'm a software engineer working at Cognizant Technology Solutions ,I have stated my career in 2021,feb as intern at CTS .Based on my performance I got a full time offer. </p>
+					<p>I started my journey at CTS as an Archival engineer , We work as team for an Insurance based American Client .They have set of data of various db we work in it perform some manupukations .</p>
+					<p>Technologies we use are SQL/PSQL and Solix.</p>
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Junior Archive Engineer.</p>
+					<p>Archive ,retention and masking , these are the tasks which we need to perform for all the db's .We perform archval based on clients demand once archival is done we move to retention and masking </p>	</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, HTML/CSS, JavaScript, SQL ,SOLIX ,C and C++</p>
+					<p>PS: Working on Django and AWS.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Education</h5>
+					<hr>
+					<p>MSC in AI -CUSAT.</p>
+                    <p> BSC in CS - Calicut University</p>
+
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>I wanted to explore more technologies and collaburate it in to the project </p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
